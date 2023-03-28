@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starlynr.PortalAPI", "Starlynr.Web\Starlynr.PortalAPI.csproj", "{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6E7A7867-816D-44DD-A9A4-A59C68F98670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{232384CC-827F-400A-8B3D-3915E7DC9AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{95FA7663-5B7D-438F-A430-C5C7EAA3F194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starlynr.DataAccess", "Starlynr.DataAccess\Starlynr.DataAccess.csproj", "{135C97E7-201E-47A7-8E9D-864C46539329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135C97E7-201E-47A7-8E9D-864C46539329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135C97E7-201E-47A7-8E9D-864C46539329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135C97E7-201E-47A7-8E9D-864C46539329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135C97E7-201E-47A7-8E9D-864C46539329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA3BF3C6-A071-4C10-9125-E0E5D0AB5C87} = {6E7A7867-816D-44DD-A9A4-A59C68F98670}
+		{135C97E7-201E-47A7-8E9D-864C46539329} = {95FA7663-5B7D-438F-A430-C5C7EAA3F194}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D54067D-DBB7-4CD8-80A1-55A90150CE5A}
+	EndGlobalSection
+EndGlobal
